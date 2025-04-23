@@ -3,10 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/donut-style.css" />
+    <title>Donut Menu</title>
+    <link rel="stylesheet" href="../styles/donut-style.css" />
   </head>
-  <body>
-    <div>DONUT PAGE</div>
+  <body style="background-color:#e2dfd0;">
+    <table class="table-donut" style="width: 100%; border-color: #e2dfd0;">
+      <tr>
+        <br>
+        <td style="width: 30%"></td>
+        <td style="width: 40%; text-align: center;">
+          <img src="C:\Users\mando\Kofei-Startup\src\donut-design.png" width="250px" />
+        </td>
+        <td style="width: 30%; text-align: center;">
+          <a href="donut-solo.html" target="donut-frame">SOLO</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+          <a href="donut-bundle.html" target="donut-frame">BUNDLE</a>
+        </td>
+      </tr>
+    </table>
+
+    <iframe
+      id="donut"
+      name="donut-frame"
+      src="../pages/donut-solo.html"
+      style="width: 100%; height: 1350px; border: none;"
+    ></iframe>
   </body>
 </html>

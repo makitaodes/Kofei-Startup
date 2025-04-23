@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e7e3d5;
+  }
+
+
+ 
+  .menu-header {
+    text-align: center;
+    margin: 40px 0 10px;
+  }
+ 
+  .menu-header h1 {
+    background-color: #dc714c;
+    display: inline-block;
+    padding: 15px 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+  }
+ 
+  .menu-type {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #dc714c;
+    font-weight: bold;
+  }
+ 
+  .divider {
+    margin: 0 10px;
+  }
+ 
+  .donut-table {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+ 
+  .donut-img {
+    height: 120px;
+  }
+ 
+  .stars {
+    color: orange;
+    font-size: 18px;
+  }
+ 
+  .donut-table td {
+    width: 25%; /* Evenly divide across 4 donuts */
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 50px;
+  }
+
+
+  .donut-table td {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+ 
+  .donut-table td:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #fff9ec;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+
+  span:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #fff9ec;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+

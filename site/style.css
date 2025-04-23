@@ -63,6 +63,7 @@ body{
     border-radius: 5px;
     background-color: #e5e5cb;
 }
+
 .nav-section{
     padding: 1%;
     border-radius: 3px;
@@ -92,3 +93,9 @@ a{
     /* border:5px solid; */
 }
 
+#donut-page{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 220vh;
+}
